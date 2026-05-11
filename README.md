@@ -1,8 +1,9 @@
-Skriptimise projekt - Renari
-See projekt on loodud õppeülesande raames ning sisaldab lahendusi kolmes programmeerimiskeeles: Bash, Python ja PowerShell. Skriptid tegelevad faililaiendite haldamise, juhusliku genereerimise ja statistika kogumisega.
+# Skriptimise projekt - Renari
 
-Projekti struktuur
-Renari/
+#See projekt on loodud õppeülesande raames ning sisaldab lahendusi kolmes programmeerimiskeeles: Bash, Python ja PowerShell. Skriptid tegelevad faililaiendite haldamise, juhusliku genereerimise ja statistika kogumisega.
+
+#Projekti struktuur
+#Renari/
 ├── extensions.txt      # Algfail 10 erineva laiendiga
 ├── task_01.sh          # Bash skript juhuslike laiendite lisamiseks
 ├── task_02.sh          # Bash skript laiendite loendamiseks
@@ -11,17 +12,17 @@ Renari/
 └── TwoTask/            # PowerShell moodul
     ├── TwoTask.psm1    # Mooduli funktsioonid (Task01 ja Task02)
     └── TwoTask.psd1    # Mooduli manifest
-Paigaldamine
+#Paigaldamine
 1. Visual Studio Code seadistamine
 Pythoni skriptide korrektseks töötamiseks installige terminalis Pythoni laiendus:
 
-code --install-extension ms-python.python
-2. Bash skriptide õigused
+#code --install-extension ms-python.python
+#2. Bash skriptide õigused
 Enne Bash skriptide kasutamist Linuxi keskkonnas andke neile käivitusõigus:
 
-chmod +x task_01.sh task_02.sh
-3. Fail "extensions.txt"
-Veenduge, et kaustas on olemas fail extensions.txt, mis sisaldab 10 rida erinevate laienditega.
+#chmod +x task_01.sh task_02.sh
+#3. Fail "extensions.txt"
+#Veenduge, et kaustas on olemas fail extensions.txt, mis sisaldab 10 rida erinevate laienditega.
 
 Kasutamine
 Bash skriptid
