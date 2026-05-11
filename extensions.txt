@@ -1,0 +1,10 @@
+txt
+bat
+exe
+sh
+py
+ps1
+psm1
+psd1
+docx
+xlsx
